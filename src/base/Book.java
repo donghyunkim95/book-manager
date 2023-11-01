@@ -9,7 +9,7 @@ public class Book {
     private Long isbn;
     private LocalDate publishedDate;
 
-    public Book(Long id, String name, String author, Long isbn, LocalDate publishedDate) {
+    public Book(Long id, String name, String author, Long isbn, LocalDate publishedDate) { // 생성자
         this.id = id;
         this.name = name;
         this.author = author;
